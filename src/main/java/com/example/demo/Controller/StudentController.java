@@ -14,7 +14,7 @@ import java.util.List;
 public class StudentController {
     @Resource
     private StudentService studentService;
-    @PostMapping("findStuAll")
+    @PostMapping("/findStuAll")
     public List<Student> findStuAll(){
         return studentService.findStuAll();
     }

@@ -5,7 +5,7 @@ import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
 @Mapper
-public interface StudentDao {
+public interface StudentMapper {
     /**
      * 查询所有学生
      * @return
