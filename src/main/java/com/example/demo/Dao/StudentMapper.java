@@ -16,4 +16,11 @@ public interface StudentMapper {
      * @return
      */
     public int delOne(int sid);
+
+    /**
+     * 修改
+     * @param sid
+     * @return
+     */
+    public int updateOne(int sid);
 }
