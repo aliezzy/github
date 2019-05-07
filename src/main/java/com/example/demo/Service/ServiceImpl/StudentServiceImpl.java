@@ -22,4 +22,9 @@ public class StudentServiceImpl implements StudentService {
     public int delOne(int sid) {
         return studentMapper.delOne(sid);
     }
+
+    @Override
+    public int updateOne(int sid) {
+        return studentMapper.updateOne(sid);
+    }
 }
