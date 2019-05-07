@@ -6,5 +6,7 @@
     <select id="findStuAll" resultType="com.example.demo.pojo.Student">
         SELECT * FROM `Student`
     </select>
-
+    <delete id="delOne" parameterType="int">
+        delete from student where sid=#{sid}
+    </delete>
 </mapper>

@@ -17,4 +17,9 @@ public class StudentServiceImpl implements StudentService {
     public List<Student> findStuAll() {
         return studentMapper.findStuAll();
     }
+
+    @Override
+    public int delOne(int sid) {
+        return studentMapper.delOne(sid);
+    }
 }

@@ -11,4 +11,9 @@ public interface StudentMapper {
      * @return
      */
     public List<Student> findStuAll();
+    /**
+     * 删除
+     * @return
+     */
+    public int delOne(int sid);
 }

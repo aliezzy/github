@@ -18,5 +18,10 @@ public class StudentController {
     public List<Student> findStuAll(){
         return studentService.findStuAll();
     }
+    @PostMapping("delOne")
+    public int delOne(int sid){
+        System.out.println("进入后台");
+        return studentService.delOne(sid);
+    }
 
 }
